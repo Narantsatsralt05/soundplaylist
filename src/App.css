@@ -1,3 +1,25 @@
+header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.14em;
+
+  color: #171717;
+  width: 232px;
+  height: 62px;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +57,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  background-color: #000000;
+  color: aliceblue;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center   {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.header-container {
+  min-height: 1560px;
+  background: linear-gradient(180deg, #3333A3 5.09%, #121212 33.4%);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.transparent-background {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.thumbnail-sm {
+  height: 82px;
+  width: 82px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.playlist-tile-container {
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.playlists-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+}
+
+.avatar-container {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 40px;
+  padding: 4px;
+  padding-right: 24px;
+  gap: 12px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
